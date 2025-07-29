@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<p>Hello,{{username}}from our HTML page!</p>
+<ul>
+{%for fruits in fruits %}
+ <li>{{fruit}}</li>
+{% endfor %}
+ </ul>
+
+
+<p>Today's current time is {{datetime}}</p>
 </body>
 </html>
